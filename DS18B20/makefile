@@ -1,0 +1,2 @@
+flash: GCC/build/blinky.hex
+	./C:/Users/a.faizullin/Desktop/openocd-win/bin/openocd.exe -s C:\Users\a.faizullin\Desktop\openocd-win\scripts\ -f C:\Users\a.faizullin\Desktop\openocd-win\scripts\board\connect_stlink.cfg -c "program C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/projects/NIIET-BB-K1921VK035/blinky/GCC/build/blinky.hex verify reset exit"
